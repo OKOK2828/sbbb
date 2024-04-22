@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    background-image: url("../images/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ==== HEADER ==== */
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 3em;
+}
+
+header figure {
+    max-width: 80px;
+}
+
+header figure img {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    color: #0168B3;
+}
+
+header .menu {
+    cursor: pointer;
+    display: none;
+}
+
+/* ==== SECTION MAIN ==== */
+
+.section_Main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section_Main .text {
+    max-width: 700px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section_Main .text .title h1, h2 {
+    color: #002954;
+    font-weight: 700;
+}
+
+.section_Main .text .title h1 {
+    font-size: 3.5em;
+    letter-spacing: 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.section_Main .text .title h2 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.section_Main .text .description {
+    margin: 10px 0 0 0;
+}
+
+.section_Main .text .description p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    line-height: 25px;
+}
+
+/* ==== SECTION ABOUT ==== */
+
+.section_About {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_About .text {
+    max-width: 750px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section_About .text h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 7  00;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.section_About .text p {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    line-height: 30px;
+}
+
+/* ==== SECTION GAMEPLAY ==== */
+
+.section_Gameplay {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/bully_development.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section_Gameplay .description {
+    max-width: 750px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section_Gameplay .description h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.section_Gameplay .description p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+}
+
+/* ==== SECTION SYNOPSIS ==== */
+
+.section_Synopsis {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.section_Synopsis .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_Synopsis .content .text {
+    margin: 20px 0 0 0;
+}
+
+.section_Synopsis .content .text h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section_Synopsis .content .description_Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_Synopsis .content .description_Box .left-Side, .right-Side {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section_Synopsis .content .description_Box .description p {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    line-height: 25px;
+}
+
+/* ==== SECTION DEVELOPMENT ==== */
+
+.section_Development {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/55.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.section_Development .description {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section_Development .description h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section_Development .description p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 25px;
+}
+
+/* ==== SECTION PRIZES ==== */
+
+.section_Prizes {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.section_Prizes .prizes_Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_Prizes .prizes_Box .text {
+    margin: 0 0 20px 0;
+}
+
+.section_Prizes .prizes_Box .text h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section_Prizes .prizes_Box .prizes {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section_Prizes .prizes_Box .prizes nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section_Prizes .prizes_Box .prizes nav ul li {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;    
+}
+
+/* ==== SECTION ASIDE ==== */
+
+.section_Aside {
+    width: 100%;
+    height: 500px;
+    background-color: #f3f3f3;
+}
+
+.section_Aside .aside_Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_Aside .aside_Box .text {
+    margin: 15px 0 0 0;
+}
+
+.section_Aside .aside_Box .text h3 {
+    color: #002954;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section_Aside .aside_Box aside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_Aside .aside_Box aside .left-Side .description {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+.section_Aside .aside_Box aside .left-Side .description p {
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.50px;
+}
+
+.section_Aside .aside_Box aside .right-Side figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_Aside .aside_Box aside .right-Side figure img {
+    width: 80%;
+}
+
+/* ==== FOOTER === */
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+
+footer .footer-Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.9em;
+}
+
+footer .footer-Box .copy span {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+footer .footer-Box .copy span a {
+    color: #0168B3;
+}
+
+footer .footer-Box .copy span a:hover {
+    border-bottom: 1px solid #0168B3;
+}
+
+/* ==== BUTTON ==== */
+
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: #002954;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.button i {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+}
